@@ -1,0 +1,28 @@
+.blend-report-container .ant-statistic-title {
+  font-size: 14px !important;
+  color: var(--text-light-color);
+  margin-bottom: 8px !important;
+}
+
+.blend-report-container .ant-statistic-content {
+  font-size: 24px !important;
+  font-weight: 600;
+}
+
+.key-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.metric-card {
+  background-color: #f5f5f7;
+  padding: 16px;
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+.metric-card .ant-statistic-content {
+  font-size: 28px !important;
+  color: var(--primary-color);
+}

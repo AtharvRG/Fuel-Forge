@@ -1,0 +1,39 @@
+.tooltip-container {
+  background-color: var(--surface-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1), 
+              0 3px 6px -4px rgba(0, 0, 0, 0.12), 
+              0 9px 28px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-color);
+  overflow: hidden; /* This is important for the border-radius to apply to the table */
+  padding: 4px; /* A small padding around the table */
+}
+
+.tooltip-table {
+  width: 100%;
+  border-collapse: collapse; /* Removes space between table cells */
+  font-size: 13px; /* A slightly smaller font for a compact look */
+}
+
+.tooltip-table td {
+  padding: 6px 10px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0; /* Light separator line */
+}
+
+/* Remove the border from the last row for a cleaner look */
+.tooltip-table tr:last-child td {
+  border-bottom: none;
+}
+
+.tooltip-table-label {
+  font-weight: 500;
+  color: var(--text-light-color);
+  white-space: nowrap; /* Prevents labels from wrapping */
+}
+
+.tooltip-table-value {
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: right; /* Align numbers to the right for easy scanning */
+}

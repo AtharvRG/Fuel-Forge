@@ -185,11 +185,6 @@ We welcome contributions to Fuel-Forge! Please follow these steps:
 - Follow PEP 8 for Python code
 - Use ESLint configuration for JavaScript/React
 - Add unit tests for new features
-- Update documentation for API changes
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -204,21 +199,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Repository**: [https://github.com/AtharvRG/Fuel-Forge](https://github.com/AtharvRG/Fuel-Forge)
 - **Issues**: [https://github.com/AtharvRG/Fuel-Forge/issues](https://github.com/AtharvRG/Fuel-Forge/issues)
 
-## Roadmap
-
-### Upcoming Features
-- [ ] Real fuel component database integration
-- [ ] Advanced optimization algorithms (genetic algorithms, PSO)
-- [ ] Multi-objective optimization capabilities
-- [ ] Cloud deployment and scaling
-- [ ] Mobile-responsive design improvements
-- [ ] Additional fuel types (jet fuel, biofuels)
-
-### Version History
-- **v1.0.0**: Initial release with basic AI prediction models
-- **v2.0.0**: Added React frontend and improved model accuracy
-- **v3.0.0**: Enhanced UI/UX and optimization features (current)
 
 ---
 
-**Made with ❤️ for the fuel engineering community**
+**Made with ❤️**
